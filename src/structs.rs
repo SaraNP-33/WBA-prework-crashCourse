@@ -56,7 +56,8 @@ let mut p =Person::new("Sara", "Pereira");
 println!("Person {}",p.full_name());
 p.set_last_name("Gates");
 println!("Person {}",p.full_name());
+println!("Person {} {}", p.first_name, p.last_name);
 println!("Person Tuple {:?}",p.to_tuple());
-// println!("Person {} {}", p.first_name, p.last_name);
+
 
 }
